@@ -1,0 +1,25 @@
+RecommendedQuestInfoList = {}
+RecommendedQuestInfoList = {
+	[1] = {
+		Title = "Bem-vindo ao Premium Ragnarok Online!",
+		IconName = "ico_gq.bmp",
+		Summary = "Fornecemos ajuda para aventureiros iniciantes.",
+		NpcSpr = "4_F_01",
+		NpcNavi = "iz_ac01",
+		NpcPosX = 102,
+		NpcPosY = 44,
+		BgName = "reco_01.bmp",
+		QuestInfo1 = {
+			"Bem-vindo(a)!",
+			"A academia Criatura oferece uma variedade de informaões para iniciantes. Se você ainda não visitou a academia Criatura, visite-nos para obter informações e itens últeis."
+		},
+		QuestInfo2 = {
+			"$$Iniciante$$ bem-vindo!!",
+			"Iniciante%%Pão de apoio",
+			"& *Grátis* e consulteOK !!"
+		},
+		QuestInfo3 = {
+			"^ff0000Esta página destina-se a atualização, não a busca. Observe que a conclusão de missões não as removerá.^000000"
+		}
+	}
+}

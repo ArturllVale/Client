@@ -1,0 +1,41 @@
+Config = {
+	StartDate = 20190725,
+	EndDate = 20190824
+}
+
+Reward = {
+	{ 1, 12208, 2 },
+	{ 2, 7621, 2 },
+	{ 3, 12209, 5 },
+	{ 4, 14601, 5 },
+	{ 5, 663, 5 },
+	{ 6, 12220, 5 },
+	{ 7, 12290, 5 },
+	{ 8, 14534, 2 },
+	{ 9, 12375, 5 },
+	{ 10, 6417, 2 },
+	{ 11, 14536, 5 },
+	{ 12, 12684, 5 },
+	{ 13, 12220, 10 },
+	{ 14, 663, 10 },
+	{ 15, 12792, 2 },
+	{ 16, 12214, 2 },
+	{ 17, 23044, 4 },
+	{ 18, 6417, 4 },
+	{ 19, 12221, 1 },
+	{ 20, 12103, 1 }
+}
+
+function main()
+	result, msg = InsertCheckAttendanceConfig(Config.EvendOnOff, Config.StartDate, Config.EndDate)
+	if not result then
+		return false, msg
+	end
+	for k, rewardtbl in pairs(Reward) do
+		result, msg = InsertCheckAttendanceReward(rewardtbl[1], rewardtbl[2], rewardtbl[3])
+		if not result then
+			return false, msg
+		end
+	end
+	return true, "success"
+end

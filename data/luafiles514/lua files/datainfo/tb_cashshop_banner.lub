@@ -1,0 +1,23 @@
+tb_cashshop_banner = {
+	[1] = {
+		"promocao.bmp",
+		"http://hypero.com.br"
+	},
+	[2] = {
+		"discord.bmp",
+		"https://discord.gg/Bag4HCd"
+	},
+	[3] = {
+		"cashvip.bmp",
+		"http://hypero.com.br/?module=doar"
+	},
+	[4] = {
+		"forum.bmp",
+		"http://hypero.com.br/forum"
+	}
+}
+function set_cashshop_banner()
+	for key, value in ipairs(tb_cashshop_banner) do
+		add_cashshop_banner(value[1], value[2])
+	end
+end

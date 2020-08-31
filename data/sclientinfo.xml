@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<clientinfo>
+	<desc>Ragnarok Online</desc>
+	<servicetype>brazil</servicetype>
+	<servertype>sakray</servertype>
+	<connection>
+		<display>PixelRO</display>
+		<desc>255/120</desc>
+		<balloon>200x/200x</balloon>
+		<langtype>12</langtype>
+		<version>30</version>
+		<address>127.0.0.1</address>
+		<port>6900</port>
+		<aid>
+			<admin>2000000</admin>	
+		</aid>
+		<loading>
+		</loading>
+	</connection>
+	<registrationweb>http://pixelRO.com</registrationweb>
+</clientinfo>
+

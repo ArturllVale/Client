@@ -1,0 +1,7 @@
+PROCURE DENTRO DO ARQUIVO:
+
+MakeableRace = {Doram = false}
+
+E MUDE PARA
+
+MakeableRace = {Doram = true}
